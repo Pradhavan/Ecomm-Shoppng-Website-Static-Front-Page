@@ -1,0 +1,504 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    width: 100%;
+    background-color:#E3E6E3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    box-shadow: 0 5px 15px black;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+}
+#navbar{
+    display: flex;
+    text-align: center;
+}
+#navbar li{
+    color: black;
+    padding: 0 20px;
+    text-decoration: none;
+    list-style-type: none; 
+    font-weight: bold;
+    font-size: 20px;
+}
+#navbar li a{
+    color: black;
+    text-decoration: none;
+    list-style-type: none; 
+    font-weight: bold;
+    font-size: 20px;
+}
+#Hero{
+    background-image: url("img/hero4.png");
+    width: 100%;
+    height: 90vh;
+    align-items: flex-start;
+    justify-content: center;   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left:15%;
+    display: flex;
+    flex-direction: column;
+}
+#Hero h4{
+    font-size:20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+#Hero h1{
+    color:green;
+    margin-top:10px;
+    font-size:30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#Hero p{
+    color: gray;
+    margin-top:10px;
+    font-size:20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#BTN{
+margin-top: 30px;
+font-size: 25px;
+font-weight: bold;
+background-image: url("img/button.png");
+background-color: transparent;
+color: green;
+padding:14px  80px 14px 65px;
+border: none;
+cursor: pointer;
+background-repeat: no-repeat;
+}
+#BTN{
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    background-image: url("img/button.png");
+    background-color: transparent;
+    color: green;
+    padding:14px  80px 14px 65px;
+    border: none;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+    
+#feature{
+    display: flex;
+    padding: 50px 20px 50px 50px;
+}
+#feature_div{
+    background-color: none;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px auto 20px auto;
+    box-shadow: 5px 5px 5px 5px grey;
+    border: none;
+}
+#feature_div img{
+    margin-top: 10px;
+}
+#feature_div p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    line-height: 1;
+    color: black;
+    padding-top: 10px;
+}
+
+#product{
+    text-align: center; 
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#product h2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: green;
+}
+#product p{  
+    margin-top: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: grey;
+}
+#product #Big_div{
+    margin:35px 0px 0px 10px ;
+    align-items: center;
+    height: 370px;
+    width: 240px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    text-align: start;
+}
+
+#Small_div{
+    padding: 20px auto auto auto;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+#Small_div img{
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    }
+#main{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+#Ex_more{
+    margin-top: 80px;
+    margin-bottom: 50px;
+    background-image: url("img/banner/b1.jpg");
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#Ex_more h1{
+    color: white;
+    font-size:40px;
+    font-family:Arial, Helvetica, sans-serif ;
+    margin: 50px auto 5px auto;
+}
+
+#Ex_more p{
+    color: white;
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin: 0px auto 20px auto;
+}
+
+#BTN_Ex_more{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 30%;
+    height: 50px;
+    cursor: pointer;
+    border: none ;
+    border-radius: 10px;
+}
+#BTN_Ex_more:hover{
+    background-color: green;
+    color: white;
+    font-size: 20px;
+}
+
+.col11{
+    background: url("img/banner/b17.jpg") no-repeat;
+    height:  auto;
+}
+.col12{
+    background: url("img/banner/b10.jpg") no-repeat;
+    height:  auto;
+}
+.col21{
+    background: url("img/banner/b4.jpg") no-repeat;
+    height:  auto;
+}
+.col22{
+    background: url("img/banner/b7.jpg") no-repeat;
+    height:  auto;
+}
+.col23{
+    background: url("img/banner/b18.jpg") no-repeat;
+    height:  auto;
+}
+.col {  
+
+    text-align: start;
+    background-size: cover;
+    background-size: 100% 100%;
+    height: 300px;
+    margin:0;
+    padding:0px;
+    color: white;
+}
+.row1 .col button{
+    color: white;
+    text-align: center;
+    height: 15%;
+    width:25% ;
+    border: 3px solid white;
+    border-radius: 10px;
+    background: none;
+}
+.row2 .col button{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    height: 15%;
+    width:25% ;
+    border: 3px solid white;
+    border-radius: 10px;
+    background: none;
+}
+
+.col p{
+    font-size:20px ;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.row2 > .col > p{
+    font-size:15px ;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.row2 > .col > h1{
+    font-size:25px ;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#Banner_News{
+    position: relative;
+    color: #E3E6E3;
+    background-image: url("img/banner/b2.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+#Banner_News > #Email{
+    position: absolute;
+    right:15%;
+    bottom: 40%;
+    display: flex;
+}
+
+#Banner_News > #Email > input{
+height: 50px;
+width: 95%;
+border-bottom-left-radius:8px ;
+border-top-left-radius:8px ;
+
+}
+#Banner_News > #Email > button{
+    height: 50px;
+    width: 50%;
+    border-bottom-right-radius:8px ;
+    border-top-right-radius:8px ;
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+    .footer-distributed{
+        background: #444;
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+        box-sizing: border-box;
+        width: 100%;
+        font: bold 16px sans-serif;
+        text-align: left;
+        padding: 50px 60px 40px;
+        overflow: hidden;
+    }
+
+    
+    /* Footer left */
+    
+    .footer-distributed .footer-left{
+        float: left;
+    }
+    
+    /* The company logo */
+    
+    .footer-distributed h3{
+        color:  #ffffff;
+        font: normal 36px 'Roboto', cursive;
+        margin: 0 0 10px;
+    }
+    
+    .footer-distributed h3 span{
+        color:  #5383d3;
+    }
+    
+    /* Footer links */
+    
+    .footer-distributed .footer-links{
+        color:  #ffffff;
+        margin: 0 0 10px;
+        padding: 0;
+    
+    }
+ 
+    
+    .footer-distributed .footer-links a{
+        display:inline-block;
+        line-height: 1.8;
+        text-decoration: none;
+        color:  inherit;
+        margin-left: 20px;
+    }
+    
+    .footer-distributed .footer-company-name{
+        color:  #8f9296;
+        font-size: 14px;
+        font-weight: normal;
+        margin: 0;
+    }
+    
+    /* Footer social icons */
+    
+    .footer-distributed .footer-icons{
+        margin-top: 40px;
+    }
+    
+    .footer-distributed .footer-icons a{
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        cursor: pointer;
+        background-color:  #33383b;
+        border-radius: 2px;
+    
+        font-size: 20px;
+        color: #ffffff;
+        text-align: center;
+        line-height: 35px;
+    
+        margin-right: 3px;
+        margin-bottom: 5px;
+    }
+    
+    /* Footer Right */
+    
+    .footer-distributed .footer-right{
+        float: right;
+    }
+    
+    .footer-distributed .footer-right p{
+        display: inline-block;
+        vertical-align: top;
+        margin: 15px 42px 0 0;
+        color: #ffffff;
+    }
+    
+    /* The contact form */
+    
+    .footer-distributed form{
+        display: inline-block;
+    }
+    
+    .footer-distributed form input,
+    .footer-distributed form textarea{
+        display: block;
+        border-radius: 3px;
+        box-sizing: border-box;
+        background-color:  #1f2022;
+        box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+        border: none;
+        resize: none;
+    
+        font: inherit;
+        font-size: 14px;
+        font-weight: normal;
+        color:  #d1d2d2;
+    
+        width: 400px;
+        padding: 18px;
+    }
+    
+    .footer-distributed ::-webkit-input-placeholder {
+        color:  #5c666b;
+    }
+    
+    .footer-distributed ::-moz-placeholder {
+        color:  #5c666b;
+        opacity: 1;
+    }
+    
+    .footer-distributed :-ms-input-placeholder{
+        color:  #5c666b;
+    }
+    
+    
+    .footer-distributed form input{
+        height: 55px;
+        margin-bottom: 15px;
+    }
+    
+    .footer-distributed form textarea{
+        height: 100px;
+        margin-bottom: 20px;
+    }
+    
+    .footer-distributed form button{
+        border-radius: 3px;
+        background-color:  #33383b;
+        color: #ffffff;
+        border: 0;
+        padding: 15px 50px;
+        font-weight: bold;
+        float: right;
+    }
+    
+    /* If you don't want the footer to be responsive, remove these media queries */
+    
+    @media (max-width: 1000px) {
+    
+        .footer-distributed {
+            font: bold 14px sans-serif;
+        }
+    
+        .footer-distributed .footer-company-name{
+            font-size: 12px;
+        }
+    
+        .footer-distributed form input,
+        .footer-distributed form textarea{
+            width: 250px;
+        }
+    
+        .footer-distributed form button{
+            padding: 10px 35px;
+        }
+    
+    }
+    
+    @media (max-width: 800px) {
+    
+        .footer-distributed{
+            padding: 30px;
+        }
+    
+        .footer-distributed .footer-left,
+        .footer-distributed .footer-right{
+            float: none;
+            max-width: 300px;
+            margin: 0 auto;
+        }
+    
+        .footer-distributed .footer-left{
+            margin-bottom: 40px;
+        }
+    
+        .footer-distributed form{
+            margin-top: 30px;
+        }
+    
+        .footer-distributed form{
+            display: block;
+        }
+    
+        .footer-distributed form button{
+            float: none;
+        }
+    }
